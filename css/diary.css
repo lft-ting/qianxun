@@ -1,0 +1,147 @@
+body{
+	background: url('../images/bg_all.png') top center no-repeat;
+	font-family: "微软雅黑";
+	min-width: 1000px;
+}
+h1{
+	width: 330px;
+    height: 68px;
+    margin: 0px auto 60px;
+	background: url('../images/version_bg.png') 0 -112px no-repeat;
+}
+main{
+	width:1000px;
+	margin: 0px auto;
+	padding:165px 0px 150px;
+	overflow: hidden;
+}
+.right{
+	float: right;
+	width:50%;
+	border-left: 4px solid #1cadf0;
+}
+.title{
+	height: 30px;
+    margin-bottom: 60px;
+    position: relative;
+    left: -17px;
+}
+.title>span{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../images/version_bg.png') no-repeat;
+}
+.title span:nth-of-type(1){
+	background-position: -300px -183px;
+}
+.title span:nth-of-type(2){
+	background-position: -300px -216px;
+}
+.title span:nth-of-type(3){
+	background-position: -300px -249px;
+}
+.right .txt{
+	width:auto;
+	margin-left: 45px;
+	font-size: 16px;
+    line-height: 30px;
+    color: #333;
+}
+.box{
+	width: 380px;	
+    margin-bottom: 6px;
+	background: url('../images/left_gray.png') right top no-repeat;
+	padding: 0px 10px;
+	position:relative;
+	left:-414px;
+}
+.content{
+	padding: 24px 30px;
+	background-color: #e6e7eb;
+	color: #666;
+}
+.box_icon{
+	width: 14px;
+    height: 14px;
+    position: absolute;
+    top: -7px;
+    right: -20px;
+    background: url(../images/version_bg.png) no-repeat -316px -317px;
+}
+h3{
+	margin-bottom:12px;
+	font-size:20px;
+	font-weight: bold;
+}
+small{
+	font-size:12px;
+}
+ol>li{
+	width: 300px;
+    padding: 0 0 10px 0px;
+}
+.box:nth-of-type(2n){
+	background: url('../images/right_gray.png') left top no-repeat;
+	left:20px;
+}
+.box:nth-of-type(2n) .box_icon{
+	top: -7px;
+    left: -28px;
+}
+.current{
+	background: url('../images/left.png') right top no-repeat;
+}
+.current:nth-of-type(2n){
+	background: url('../images/righ.png') left top no-repeat;
+}
+.current>.content{
+	background-color: #1cadf0;
+	color: #fff;
+}
+.bottom{
+	margin-top:60px;
+	height: 32px;
+    position: relative;
+    left: -18px;
+    bottom: -24px;
+}
+.b_icon{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../images/version_bg.png') no-repeat -298px -282px;
+
+}
+nav{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height:60px;
+	background:  rgba(0,0,0,0.6);
+}
+nav>ul{
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+nav li{
+	float: left;
+	width:200px;
+	line-height: 60px;
+	text-align:center;
+}
+nav li:hover{
+	background:rgba(225,225,225,0.2);
+}
+nav a{
+	display: block;
+	width:200px;
+	color: #b1b1b1;
+	text-decoration: none;
+}
